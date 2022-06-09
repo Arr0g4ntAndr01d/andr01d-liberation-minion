@@ -1,5 +1,6 @@
+$ooo = '16:3'
 $hr = $null
-while ($hr -lt "16:3$ran") {
+while ($hr -lt $ooo +""+ $ran) {
     $wsh = New-Object -ComObject WScript.shell
     $wsh.sendkeys('+{F15}')
     $hr = (Get-Date).ToString('HH:mm') 
