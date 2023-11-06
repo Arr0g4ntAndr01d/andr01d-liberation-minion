@@ -9,5 +9,5 @@ function m1n2oN {
 	    Clear-Host
 	    write-host Calculating Ratio: ("0" + $zuf +":"+ $td_uhr +":"+ $zuf)
 	    Start-Sleep -Seconds ("5" +""+ $zuf)
-	  }
+	}
 }
